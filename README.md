@@ -66,8 +66,13 @@ This page focuses on business value and how delays impact revenue.
 
 **📁 Files Included**
 1.PowerBI_Dashboard.pbix — full interactive dashboard
-2.Cleaned_Dataset.csv — processed dataset
+2.Dashboard Screenshots
 3.README.md — project documentation
+4.Untitled(1) - Python notebook
+
+**📥 Dataset Source**
+The dataset is publicly available on Kaggle:
+🔗 https://www.kaggle.com/datasets/
 
 **🛠 Tools & Skills Used**
 Power BI
@@ -77,6 +82,8 @@ KPI Design
 Data Visualization
 Supply Chain Analytics
 Customer Segmentation
+Python (Pandas, NumPy, Matplotlib)
+Exploratory data analysis
 
 **🧾 Conclusion**
 The supply chain suffers from:
