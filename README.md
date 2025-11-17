@@ -1,9 +1,8 @@
-**Supply Chain Performance Analysis (Python + Power BI)**
+#Supply Chain Performance Analysis (Python + Power BI)
+I analyzed the DataCo Supply Chain Dataset using Python for cleaning/EDA and Power BI for dashboarding to uncover delivery inefficiencies, operational bottlenecks, customer behavior patterns, and product revenue impact.
+The result is a 3-page analytical dashboard that provides complete visibility across delivery performance, delay root causes, and customer–product value.
 
-This project presents a complete analysis of supply chain efficiency, delivery performance, delays, customer behavior, and product revenue using the DataCo Supply Chain Dataset.
-It includes a 3-page Power BI dashboard that helps identify operational problems, uncover root causes, and highlight customer–product impact.
-
-**🚀 Project Objectives**
+##🚀 Project Objectives
 
 1.Measure delivery performance using KPIs.
 2.Identify delay patterns across regions, products, and shipping modes.
@@ -11,8 +10,8 @@ It includes a 3-page Power BI dashboard that helps identify operational problems
 4.Understand which product categories and regions drive revenue.
 5.Analyze how delays impact customer spending and value.
 
-**📊 Dashboard Pages Overview**
-**📌 Page 1 — Supply Chain Performance Overview**
+##📊 Dashboard Pages Overview
+###📌 Page 1 — Supply Chain Performance Overview
 This page gives a high-level summary using KPIs and delay insights.
 
 **Key KPIs**
@@ -33,7 +32,7 @@ This page gives a high-level summary using KPIs and delay insights.
 3.Africa & Asia face the longest delays.
 4.Most categories deliver only 40–50% on time.
 
-**📌 Page 2 — Root Cause Analysis**
+###📌 Page 2 — Root Cause Analysis
 This page explores why delays occur.
 
 **Visuals**
@@ -49,7 +48,7 @@ This page explores why delays occur.
 4.High-volume markets like US & Europe still face similar delays (~0.5–0.7 days).
 5.Delays are driven mostly by shipping mode + product type, not customer location.
 
-**📌 Page 3 — Customer & Product Impact**
+###📌 Page 3 — Customer & Product Impact
 This page focuses on business value and how delays impact revenue.
 
 **Visuals**
@@ -64,28 +63,38 @@ This page focuses on business value and how delays impact revenue.
 3.Higher delay risk = lower customer spending (correlation visible on scatter plot).
 4.Customers with longer delays consistently spend less and have lower repeat orders.
 
-**📁 Files Included**
+##📁 Files Included
 1.PowerBI_Dashboard.pbix — full interactive dashboard
 2.Dashboard Screenshots
 3.README.md — project documentation
-4.Untitled(1) - Python notebook
+4.Python Notebook (.ipynb) — cleaning, EDA & KPI computation
 
-**📥 Dataset Source**
+##📥 Dataset Source
 The dataset is publicly available on Kaggle:
 🔗 https://www.kaggle.com/datasets/
 
-**🛠 Tools & Skills Used**
-Power BI
-DAX Measures
-Data Cleaning
-KPI Design
-Data Visualization
-Supply Chain Analytics
-Customer Segmentation
-Python (Pandas, NumPy, Matplotlib)
-Exploratory data analysis
+##🛠 Tools & Skills Used
 
-**🧾 Conclusion**
+**Python**
+Pandas
+NumPy
+Matplotlib/Seaborn
+Data cleaning, null handling, date conversion
+
+**Power BI**
+DAX Measures
+KPI Creation
+Drill-through analysis
+Geographical visualizations
+
+**Core Skills**
+Data Cleaning
+Exploratory Analysis
+Supply Chain Analytics
+Customer Behavior Analysis
+Data Visualization & Reporting
+
+##🧾 Conclusion
 The supply chain suffers from:
 1.Shipping mode inefficiencies
 2.Category-specific delay issues
@@ -94,6 +103,5 @@ The supply chain suffers from:
 
 **Improving Second Class shipping, optimizing handling time, and better regional logistics planning can significantly boost delivery performance and customer value.
 **
-Improving Second Class shipping, optimizing handling time, and better regional logistics planning can significantly boost delivery performance and customer value.
 
 ⭐ If you find this project useful, please star the repo!
